@@ -8,11 +8,11 @@ We use the publicly available [Adult Income Dataset](https://drive.google.com/dr
 
 The notebook `adult_income.ipynb` contains end-to-end code for
 
-     1. Programmatically loading data from files and verifying against metadata file
+     1. Programmatically load data and check sanity against metadata file
      
-     2. Exploratory Data Analysis on the training set
+     2. Exploratory Data Analysis
      
-     3. Feature Engineering and Encoding Techniques
+     3. Feature Engineering and Feature Encoding
      
      4. Model Comparison and Selection (ROC AUC, PR AUC etc.)
      
