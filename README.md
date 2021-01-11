@@ -7,25 +7,19 @@ We use the publicly available [Adult Income Dataset](https://drive.google.com/dr
 # Solution
 
 The notebook `adult_income.ipynb` contains end-to-end code for
+1. Programmatically load data and check sanity against metadata file
+2. Exploratory Data Analysis
+3. Feature Engineering and Feature Encoding
+4. Model Comparison and Selection (ROC AUC, PR AUC etc.)
+     1. Logistic Regression
+     2. RandomForest Classifier
+     3. XGBoost Classifier
+     4. CatBoost Classifier
+5. Hyperparameter Tuning and Model Validation (Precision, Recall, Accuracy etc.)
 
-     1. Programmatically load data and check sanity against metadata file
-     
-     2. Exploratory Data Analysis
-     
-     3. Feature Engineering and Feature Encoding
-     
-     4. Model Comparison and Selection (ROC AUC, PR AUC etc.)
-          - Logistic Regression
-          - RandomForest Classifier
-          - XGBoost Classifier
-          - CatBoost Classifier
-     
-     5. Hyperparameter Tuning and Model Validation (Precision, Recall, Accuracy etc.)
-     
-     6. Model Interpretation (Feature Importances, SHAP scores, Partial Dependency Plots etc.)
-     
-     Extra :
-     =======
-     7. Imputation Techniques to handle imbalanced dataset (SMOTE, Oversampling, Undersampling etc.)
+6. Model Interpretation (Feature Importances, SHAP scores, Partial Dependency Plots etc.)
+
+
+7. Imputation Techniques to handle imbalanced dataset (SMOTE, Oversampling, Undersampling etc.)
 
 All the analysis, observation and comments are documented within the Python notebook itself.
