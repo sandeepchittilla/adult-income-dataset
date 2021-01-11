@@ -26,6 +26,29 @@ All the analysis, observation and comments are documented within the Python note
 
 # Results
 
-We observe that the most important characteristics associated with income are :
+We observe that the top 8 most important characteristics associated with income are :
 
+<img src="../results-images/screenshots/shap.png?raw=true" width="500" description="SHAP Importance Scores"/>
+
+We then look at Partial Dependency plots for the top features.
+
+### Weeks Worked in a Year
+
+<img src="../results-images/screenshots/weeks%20pdp.png?raw=true" width="250"/>
+
+### Age
+
+<img src="../results-images/screenshots/age%20pdp.png?raw=true" width="250"/>
+
+### Education
+
+<img src="../results-images/screenshots/education%20pdp.png?raw=true" width="250"/>
+
+### Sex
+
+<img src="../results-images/screenshots/sex%20pdp.png?raw=true" width="250"/>
+
+### Occupation
+
+<img src="../results-images/screenshots/occupation%20pdp.png?raw=true" width="250"/>
 
