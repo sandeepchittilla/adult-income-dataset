@@ -23,3 +23,9 @@ The notebook `adult_income.ipynb` contains end-to-end code for
 7. Imputation Techniques to handle imbalanced dataset (SMOTE, Oversampling, Undersampling etc.)
 
 All the analysis, observation and comments are documented within the Python notebook itself.
+
+# Results
+
+We observe that the most important characteristics associated with income are :
+
+
